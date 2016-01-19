@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pedometer - Name of the Health.xcscheme</key>
+		<key>NameOfTheHealth.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>115E4AD11C4E22C1006E5428</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>115E4AED1C4E22C1006E5428</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>115E4AF81C4E22C1006E5428</key>
+		<key>115E4B131C4E2591006E5428</key>
 		<dict>
 			<key>primary</key>
 			<true/>

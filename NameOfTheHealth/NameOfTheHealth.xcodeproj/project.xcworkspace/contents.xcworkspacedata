@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pedometer - Name of the Health.xcodeproj">
+      location = "self:NameOfTheHealth.xcodeproj">
    </FileRef>
 </Workspace>

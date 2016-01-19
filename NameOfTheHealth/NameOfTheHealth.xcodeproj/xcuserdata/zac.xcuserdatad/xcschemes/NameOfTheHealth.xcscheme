@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "115E4AD11C4E22C1006E5428"
-               BuildableName = "Pedometer - Name of the Health.app"
-               BlueprintName = "Pedometer - Name of the Health"
-               ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
+               BlueprintIdentifier = "115E4B131C4E2591006E5428"
+               BuildableName = "NameOfTheHealth.app"
+               BlueprintName = "NameOfTheHealth"
+               ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "115E4AED1C4E22C1006E5428"
-               BuildableName = "Pedometer - Name of the HealthTests.xctest"
-               BlueprintName = "Pedometer - Name of the HealthTests"
-               ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "115E4AF81C4E22C1006E5428"
-               BuildableName = "Pedometer - Name of the HealthUITests.xctest"
-               BlueprintName = "Pedometer - Name of the HealthUITests"
-               ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4AD11C4E22C1006E5428"
-            BuildableName = "Pedometer - Name of the Health.app"
-            BlueprintName = "Pedometer - Name of the Health"
-            ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
+            BlueprintIdentifier = "115E4B131C4E2591006E5428"
+            BuildableName = "NameOfTheHealth.app"
+            BlueprintName = "NameOfTheHealth"
+            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4AD11C4E22C1006E5428"
-            BuildableName = "Pedometer - Name of the Health.app"
-            BlueprintName = "Pedometer - Name of the Health"
-            ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
+            BlueprintIdentifier = "115E4B131C4E2591006E5428"
+            BuildableName = "NameOfTheHealth.app"
+            BlueprintName = "NameOfTheHealth"
+            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4AD11C4E22C1006E5428"
-            BuildableName = "Pedometer - Name of the Health.app"
-            BlueprintName = "Pedometer - Name of the Health"
-            ReferencedContainer = "container:Pedometer - Name of the Health.xcodeproj">
+            BlueprintIdentifier = "115E4B131C4E2591006E5428"
+            BuildableName = "NameOfTheHealth.app"
+            BlueprintName = "NameOfTheHealth"
+            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

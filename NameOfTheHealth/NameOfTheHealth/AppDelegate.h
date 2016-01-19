@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  Pedometer - Name of the Health
+//  NameOfTheHealth
 //
 //  Created by my on 16/1/19.
 //  Copyright © 2016年 zhux. All rights reserved.
