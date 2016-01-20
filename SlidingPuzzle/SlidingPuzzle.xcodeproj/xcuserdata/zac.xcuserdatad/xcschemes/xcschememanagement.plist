@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NameOfTheHealth.xcscheme</key>
+		<key>SlidingPuzzle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>115E4B131C4E2591006E5428</key>
+		<key>116FAF0D1C4F5182008EE0FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

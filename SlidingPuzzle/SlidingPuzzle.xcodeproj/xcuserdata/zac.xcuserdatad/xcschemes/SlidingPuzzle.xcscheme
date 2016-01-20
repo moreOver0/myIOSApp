@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "115E4B131C4E2591006E5428"
-               BuildableName = "NameOfTheHealth.app"
-               BlueprintName = "NameOfTheHealth"
-               ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
+               BlueprintIdentifier = "116FAF0D1C4F5182008EE0FC"
+               BuildableName = "SlidingPuzzle.app"
+               BlueprintName = "SlidingPuzzle"
+               ReferencedContainer = "container:SlidingPuzzle.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4B131C4E2591006E5428"
-            BuildableName = "NameOfTheHealth.app"
-            BlueprintName = "NameOfTheHealth"
-            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
+            BlueprintIdentifier = "116FAF0D1C4F5182008EE0FC"
+            BuildableName = "SlidingPuzzle.app"
+            BlueprintName = "SlidingPuzzle"
+            ReferencedContainer = "container:SlidingPuzzle.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4B131C4E2591006E5428"
-            BuildableName = "NameOfTheHealth.app"
-            BlueprintName = "NameOfTheHealth"
-            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
+            BlueprintIdentifier = "116FAF0D1C4F5182008EE0FC"
+            BuildableName = "SlidingPuzzle.app"
+            BlueprintName = "SlidingPuzzle"
+            ReferencedContainer = "container:SlidingPuzzle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "115E4B131C4E2591006E5428"
-            BuildableName = "NameOfTheHealth.app"
-            BlueprintName = "NameOfTheHealth"
-            ReferencedContainer = "container:NameOfTheHealth.xcodeproj">
+            BlueprintIdentifier = "116FAF0D1C4F5182008EE0FC"
+            BuildableName = "SlidingPuzzle.app"
+            BlueprintName = "SlidingPuzzle"
+            ReferencedContainer = "container:SlidingPuzzle.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
