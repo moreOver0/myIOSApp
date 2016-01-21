@@ -23,6 +23,7 @@
 		116FAF781C50E1C6008EE0FC /* 3_0-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6F1C50E1C6008EE0FC /* 3_0-1.jpg */; };
 		116FAF791C50E1C6008EE0FC /* 3_0-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */; };
 		116FAF7C1C512B5A008EE0FC /* PairInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF7B1C512B5A008EE0FC /* PairInteger.m */; };
+		116FAF7E1C5133B4008EE0FC /* full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF7D1C5133B4008EE0FC /* full.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_0-0.jpg"; sourceTree = "<group>"; };
 		116FAF7A1C512B5A008EE0FC /* PairInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairInteger.h; sourceTree = "<group>"; };
 		116FAF7B1C512B5A008EE0FC /* PairInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairInteger.m; sourceTree = "<group>"; };
+		116FAF7D1C5133B4008EE0FC /* full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		116FAF111C4F5182008EE0FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				116FAF7D1C5133B4008EE0FC /* full.jpg */,
 				116FAF681C50E1C6008EE0FC /* 3_1-2.jpg */,
 				116FAF691C50E1C6008EE0FC /* 3_1-1.jpg */,
 				116FAF6A1C50E1C6008EE0FC /* 3_2-1.jpg */,
@@ -168,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116FAF7E1C5133B4008EE0FC /* full.jpg in Resources */,
 				116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */,
 				116FAF741C50E1C6008EE0FC /* 3_2-0.jpg in Resources */,
 				116FAF721C50E1C6008EE0FC /* 3_1-1.jpg in Resources */,
