@@ -12,8 +12,16 @@
 		116FAF1C1C4F5182008EE0FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF1A1C4F5182008EE0FC /* Main.storyboard */; };
 		116FAF1E1C4F5182008EE0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF1D1C4F5182008EE0FC /* Assets.xcassets */; };
 		116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF1F1C4F5182008EE0FC /* LaunchScreen.storyboard */; };
-		116FAF291C4F8DD7008EE0FC /* Maggie_3s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF281C4F8DD7008EE0FC /* Maggie_3s.jpg */; };
 		116FAF521C50AC84008EE0FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF511C50AC84008EE0FC /* MainViewController.m */; };
+		116FAF711C50E1C6008EE0FC /* 3_1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF681C50E1C6008EE0FC /* 3_1-2.jpg */; };
+		116FAF721C50E1C6008EE0FC /* 3_1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF691C50E1C6008EE0FC /* 3_1-1.jpg */; };
+		116FAF731C50E1C6008EE0FC /* 3_2-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6A1C50E1C6008EE0FC /* 3_2-1.jpg */; };
+		116FAF741C50E1C6008EE0FC /* 3_2-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6B1C50E1C6008EE0FC /* 3_2-0.jpg */; };
+		116FAF751C50E1C6008EE0FC /* 3_2-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6C1C50E1C6008EE0FC /* 3_2-2.jpg */; };
+		116FAF761C50E1C6008EE0FC /* 3_1-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6D1C50E1C6008EE0FC /* 3_1-0.jpg */; };
+		116FAF771C50E1C6008EE0FC /* 3_0-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6E1C50E1C6008EE0FC /* 3_0-2.jpg */; };
+		116FAF781C50E1C6008EE0FC /* 3_0-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF6F1C50E1C6008EE0FC /* 3_0-1.jpg */; };
+		116FAF791C50E1C6008EE0FC /* 3_0-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +33,17 @@
 		116FAF1D1C4F5182008EE0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116FAF201C4F5182008EE0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116FAF221C4F5182008EE0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		116FAF281C4F8DD7008EE0FC /* Maggie_3s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maggie_3s.jpg; sourceTree = "<group>"; };
 		116FAF501C50AC84008EE0FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		116FAF511C50AC84008EE0FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		116FAF681C50E1C6008EE0FC /* 3_1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_1-2.jpg"; sourceTree = "<group>"; };
+		116FAF691C50E1C6008EE0FC /* 3_1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_1-1.jpg"; sourceTree = "<group>"; };
+		116FAF6A1C50E1C6008EE0FC /* 3_2-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_2-1.jpg"; sourceTree = "<group>"; };
+		116FAF6B1C50E1C6008EE0FC /* 3_2-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_2-0.jpg"; sourceTree = "<group>"; };
+		116FAF6C1C50E1C6008EE0FC /* 3_2-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_2-2.jpg"; sourceTree = "<group>"; };
+		116FAF6D1C50E1C6008EE0FC /* 3_1-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_1-0.jpg"; sourceTree = "<group>"; };
+		116FAF6E1C50E1C6008EE0FC /* 3_0-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_0-2.jpg"; sourceTree = "<group>"; };
+		116FAF6F1C50E1C6008EE0FC /* 3_0-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_0-1.jpg"; sourceTree = "<group>"; };
+		116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3_0-0.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +92,15 @@
 		116FAF111C4F5182008EE0FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				116FAF281C4F8DD7008EE0FC /* Maggie_3s.jpg */,
+				116FAF681C50E1C6008EE0FC /* 3_1-2.jpg */,
+				116FAF691C50E1C6008EE0FC /* 3_1-1.jpg */,
+				116FAF6A1C50E1C6008EE0FC /* 3_2-1.jpg */,
+				116FAF6B1C50E1C6008EE0FC /* 3_2-0.jpg */,
+				116FAF6C1C50E1C6008EE0FC /* 3_2-2.jpg */,
+				116FAF6D1C50E1C6008EE0FC /* 3_1-0.jpg */,
+				116FAF6E1C50E1C6008EE0FC /* 3_0-2.jpg */,
+				116FAF6F1C50E1C6008EE0FC /* 3_0-1.jpg */,
+				116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */,
 				116FAF121C4F5182008EE0FC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,9 +164,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */,
+				116FAF741C50E1C6008EE0FC /* 3_2-0.jpg in Resources */,
+				116FAF721C50E1C6008EE0FC /* 3_1-1.jpg in Resources */,
+				116FAF731C50E1C6008EE0FC /* 3_2-1.jpg in Resources */,
+				116FAF781C50E1C6008EE0FC /* 3_0-1.jpg in Resources */,
+				116FAF751C50E1C6008EE0FC /* 3_2-2.jpg in Resources */,
 				116FAF1E1C4F5182008EE0FC /* Assets.xcassets in Resources */,
 				116FAF1C1C4F5182008EE0FC /* Main.storyboard in Resources */,
-				116FAF291C4F8DD7008EE0FC /* Maggie_3s.jpg in Resources */,
+				116FAF761C50E1C6008EE0FC /* 3_1-0.jpg in Resources */,
+				116FAF791C50E1C6008EE0FC /* 3_0-0.jpg in Resources */,
+				116FAF711C50E1C6008EE0FC /* 3_1-2.jpg in Resources */,
+				116FAF771C50E1C6008EE0FC /* 3_0-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhux.SlidingPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -282,6 +315,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhux.SlidingPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
