@@ -78,7 +78,6 @@ int dy[4] = {-1, 1, 0, 0};
     [self initImages];
     [self initImageViews];
     self.view.backgroundColor = [UIColor lightGrayColor];
-    stack = [[NSMutableArray alloc] initWithCapacity:10];
     
     do{
         [self newGame];
@@ -113,6 +112,8 @@ int dy[4] = {-1, 1, 0, 0};
 }
 
 - (void)newGame {
+    stack = [[NSMutableArray alloc] initWithCapacity:10];
+
     int x, y, k;
     for(int i = 0; i < 10000; ++i){
         k = arc4random_uniform(4);
@@ -122,6 +123,7 @@ int dy[4] = {-1, 1, 0, 0};
             [self exchangeBlankKind:0 posX:x posY:y];
         }
     }
+    
 }
 
 - (void)undo {
