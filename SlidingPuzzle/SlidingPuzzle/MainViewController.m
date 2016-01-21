@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "PairInteger.h"
 @interface MainViewController ()
 {
     int N;
@@ -15,9 +15,9 @@
     UIImageView* imageViews[3][3];
     UIImage* images[3][3];
     
+    NSMutableArray* stack;
+    
 }
-
-
 @end
 
 @implementation MainViewController
@@ -77,23 +77,23 @@ int dy[4] = {-1, 1, 0, 0};
     blankPosY = N-1;
     [self initImages];
     [self initImageViews];
-
-
     self.view.backgroundColor = [UIColor lightGrayColor];
-
+    stack = [[NSMutableArray alloc] initWithCapacity:10];
+    
+    do{
+        [self newGame];
+    }while([self check]);
+    
     for(int i = 0; i < N; ++i){
         for(int j = 0; j < N; ++j){
             [self.view addSubview:imageViews[i][j]];
         }
     }
-    if([self check]){
-        for(int i = 0; i < N; ++i){
-            for(int j = 0; j < N; ++j){
-                [imageViews[i][j] setUserInteractionEnabled:NO];
-            }
-        }
-    }
-    
+    [self.navigationItem.rightBarButtonItem setTarget:self];
+    [self.navigationItem.rightBarButtonItem setAction:@selector(newGame)];
+    [self.navigationItem.leftBarButtonItem setTarget:self];
+    [self.navigationItem.leftBarButtonItem setAction:@selector(undo)];
+
     UISwipeGestureRecognizer *swipe;
     swipe =  [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeBlock:)];
     [swipe setDirection:(UISwipeGestureRecognizerDirectionRight)];
@@ -110,9 +110,30 @@ int dy[4] = {-1, 1, 0, 0};
     swipe =  [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeBlock:)];
     [swipe setDirection:(UISwipeGestureRecognizerDirectionDown)];
     [self.view addGestureRecognizer:swipe];
-    
-    
 }
+
+- (void)newGame {
+    int x, y, k;
+    for(int i = 0; i < 10000; ++i){
+        k = arc4random_uniform(4);
+        x = blankPosX + dx[k];
+        y = blankPosY + dy[k];
+        if([self validPosX:x PosY:y]){
+            [self exchangeBlankKind:0 posX:x posY:y];
+        }
+    }
+}
+
+- (void)undo {
+    if([self check])
+        return;
+    PairInteger* pair = [stack lastObject];
+    if(pair != nil){
+        [self exchangeBlankKind:-1 posX:pair.x posY:pair.y];
+        [stack removeLastObject];
+    }
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -136,28 +157,31 @@ int dy[4] = {-1, 1, 0, 0};
     return false;
 }
 
-- (void)exchangePosX1:(int)x1 PosY1:(int)y1 PosX2:(int)x2 PosY2:(int)y2 {
-    
-    
-}
-
-- (void)exchangeBlankPosX:(int)x PosY:(int)y {
+- (void)exchangeBlankKind:(int)k posX:(int)x posY:(int)y {
     if([self validPosX:x PosY:y]){
+        if(k == 1){
+//            printf("blank to %d %d\n", x, y);
+            PairInteger* pair = [[PairInteger alloc] init];
+            pair.x = blankPosX;
+            pair.y = blankPosY;
+            [stack addObject:pair];
+            
+        }else if(k == -1){
+//            printf("blank back to %d %d\n", x, y);
+        }
         UIImage* tmp = imageViews[x][y].image;
         imageViews[x][y].image = imageViews[blankPosX][blankPosY].image;
         imageViews[blankPosX][blankPosY].image = tmp;
         blankPosX = x;
         blankPosY = y;
-        printf("blank to %d %d\n", blankPosX, blankPosY);
-
     }
+
 }
 
 - (bool)check {
     for(int i = 0; i < N; ++i){
         for(int j = 0; j < N; ++j){
             if(imageViews[i][j].image != images[i][j]){
-//                printf("%d %d\n", i, j);
                 return false;
             }
         }
@@ -166,6 +190,8 @@ int dy[4] = {-1, 1, 0, 0};
 }
 
 - (void)moveBlock: (UIGestureRecognizer *)recognizer{
+    if([self check])
+        return;
     UIImageView* curr = (UIImageView*)recognizer.delegate;
     int x = -1;
     int y = -1;
@@ -187,15 +213,7 @@ int dy[4] = {-1, 1, 0, 0};
             }
         }
         if(get){
-            [self exchangeBlankPosX:x PosY:y];
-        }
-    }
-    
-    if([self check]){
-        for(int i = 0; i < N; ++i){
-            for(int j = 0; j < N; ++j){
-                [imageViews[i][j] setUserInteractionEnabled:NO];
-            }
+            [self exchangeBlankKind:1 posX:x posY:y];
         }
     }
 }
@@ -218,7 +236,7 @@ int dy[4] = {-1, 1, 0, 0};
         y--;
     }
     
-    [self exchangeBlankPosX:x PosY:y];
+    [self exchangeBlankKind:1 posX:x posY:y];
 }
 
 
