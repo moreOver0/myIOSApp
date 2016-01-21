@@ -13,10 +13,7 @@
 		116FAF1E1C4F5182008EE0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF1D1C4F5182008EE0FC /* Assets.xcassets */; };
 		116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF1F1C4F5182008EE0FC /* LaunchScreen.storyboard */; };
 		116FAF291C4F8DD7008EE0FC /* Maggie_3s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF281C4F8DD7008EE0FC /* Maggie_3s.jpg */; };
-		116FAF411C4FECD6008EE0FC /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF3E1C4FECD6008EE0FC /* CollectionCell.m */; };
-		116FAF421C4FECD6008EE0FC /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF3F1C4FECD6008EE0FC /* CollectionCell.xib */; };
-		116FAF4C1C4FF4E2008EE0FC /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF4B1C4FF4E2008EE0FC /* PuzzleViewController.m */; };
-		116FAF4F1C50A120008EE0FC /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF4E1C50A120008EE0FC /* CollectionView.m */; };
+		116FAF521C50AC84008EE0FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF511C50AC84008EE0FC /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,13 +26,8 @@
 		116FAF201C4F5182008EE0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116FAF221C4F5182008EE0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116FAF281C4F8DD7008EE0FC /* Maggie_3s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Maggie_3s.jpg; sourceTree = "<group>"; };
-		116FAF3E1C4FECD6008EE0FC /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
-		116FAF3F1C4FECD6008EE0FC /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
-		116FAF401C4FECD6008EE0FC /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
-		116FAF4A1C4FF4E2008EE0FC /* PuzzleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleViewController.h; sourceTree = "<group>"; };
-		116FAF4B1C4FF4E2008EE0FC /* PuzzleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuzzleViewController.m; sourceTree = "<group>"; };
-		116FAF4D1C50A120008EE0FC /* CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
-		116FAF4E1C50A120008EE0FC /* CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
+		116FAF501C50AC84008EE0FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		116FAF511C50AC84008EE0FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +60,6 @@
 		116FAF101C4F5182008EE0FC /* SlidingPuzzle */ = {
 			isa = PBXGroup;
 			children = (
-				116FAF3E1C4FECD6008EE0FC /* CollectionCell.m */,
-				116FAF3F1C4FECD6008EE0FC /* CollectionCell.xib */,
-				116FAF401C4FECD6008EE0FC /* CollectionCell.h */,
 				116FAF141C4F5182008EE0FC /* AppDelegate.h */,
 				116FAF151C4F5182008EE0FC /* AppDelegate.m */,
 				116FAF1A1C4F5182008EE0FC /* Main.storyboard */,
@@ -78,10 +67,8 @@
 				116FAF1F1C4F5182008EE0FC /* LaunchScreen.storyboard */,
 				116FAF221C4F5182008EE0FC /* Info.plist */,
 				116FAF111C4F5182008EE0FC /* Supporting Files */,
-				116FAF4A1C4FF4E2008EE0FC /* PuzzleViewController.h */,
-				116FAF4B1C4FF4E2008EE0FC /* PuzzleViewController.m */,
-				116FAF4D1C50A120008EE0FC /* CollectionView.h */,
-				116FAF4E1C50A120008EE0FC /* CollectionView.m */,
+				116FAF501C50AC84008EE0FC /* MainViewController.h */,
+				116FAF511C50AC84008EE0FC /* MainViewController.m */,
 			);
 			path = SlidingPuzzle;
 			sourceTree = "<group>";
@@ -154,7 +141,6 @@
 			files = (
 				116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */,
 				116FAF1E1C4F5182008EE0FC /* Assets.xcassets in Resources */,
-				116FAF421C4FECD6008EE0FC /* CollectionCell.xib in Resources */,
 				116FAF1C1C4F5182008EE0FC /* Main.storyboard in Resources */,
 				116FAF291C4F8DD7008EE0FC /* Maggie_3s.jpg in Resources */,
 			);
@@ -167,11 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116FAF411C4FECD6008EE0FC /* CollectionCell.m in Sources */,
+				116FAF521C50AC84008EE0FC /* MainViewController.m in Sources */,
 				116FAF161C4F5182008EE0FC /* AppDelegate.m in Sources */,
-				116FAF4F1C50A120008EE0FC /* CollectionView.m in Sources */,
 				116FAF131C4F5182008EE0FC /* main.m in Sources */,
-				116FAF4C1C4FF4E2008EE0FC /* PuzzleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

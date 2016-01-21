@@ -10,14 +10,16 @@
         <!--MainViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="MainViewController" sceneMemberID="viewController">
-                    <containerView key="view" opaque="NO" contentMode="scaleToFill" id="rcm-6k-orS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <connections>
-                            <segue destination="2xg-Oh-ERD" kind="embed" id="dJr-Nk-82P"/>
-                        </connections>
-                    </containerView>
+                <viewController id="BYZ-38-t0r" userLabel="MainViewController" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="81f-yw-KMB"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zet-ju-GMq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LOv-Qk-bhw">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                     <navigationItem key="navigationItem" id="lLp-hU-lza">
                         <barButtonItem key="leftBarButtonItem" title="Undo" id="NYw-Kx-aXH"/>
                         <barButtonItem key="rightBarButtonItem" title="More" id="BtN-JE-woG">
@@ -184,5 +186,70 @@
             </objects>
             <point key="canvasLocation" x="318" y="1181"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="e24-rc-zxf">
+            <objects>
+                <viewController id="JiD-Jt-dMy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n6B-bL-ZNW"/>
+                        <viewControllerLayoutGuide type="bottom" id="2hK-aH-Voh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eps-fT-q9R">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zpm-p4-0S2">
+                                <rect key="frame" x="118" y="118" width="364" height="364"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PPM-b5-Svd">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nxz-qg-xwR">
+                                        <rect key="frame" x="122" y="0.0" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Fn2-16-PwK">
+                                        <rect key="frame" x="244" y="0.0" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BT2-Dl-dM5">
+                                        <rect key="frame" x="0.0" y="122" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OWo-CT-TzL">
+                                        <rect key="frame" x="122" y="122" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pUC-NS-JVR">
+                                        <rect key="frame" x="244" y="122" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="X8i-35-q3W">
+                                        <rect key="frame" x="0.0" y="244" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W3t-o7-IPx">
+                                        <rect key="frame" x="122" y="244" width="120" height="120"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maggie_3s.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e3q-DJ-VEJ">
+                                        <rect key="frame" x="244" y="244" width="120" height="120"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zpm-p4-0S2" secondAttribute="height" multiplier="1:1" id="LhO-rb-waA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zpm-p4-0S2" firstAttribute="centerX" secondItem="eps-fT-q9R" secondAttribute="centerX" id="Htj-u9-MoJ"/>
+                            <constraint firstItem="Zpm-p4-0S2" firstAttribute="centerY" secondItem="eps-fT-q9R" secondAttribute="centerY" id="hhu-Uf-Xvf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Zpm-p4-0S2" secondAttribute="trailing" id="hp1-GD-GZ1"/>
+                            <constraint firstItem="Zpm-p4-0S2" firstAttribute="leading" secondItem="eps-fT-q9R" secondAttribute="leadingMargin" id="pxg-ga-un7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n8a-rG-9Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="789" y="1137"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Maggie_3s.jpg" width="350" height="350"/>
+    </resources>
 </document>
