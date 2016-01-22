@@ -24,6 +24,12 @@
 		116FAF791C50E1C6008EE0FC /* 3_0-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF701C50E1C6008EE0FC /* 3_0-0.jpg */; };
 		116FAF7C1C512B5A008EE0FC /* PairInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 116FAF7B1C512B5A008EE0FC /* PairInteger.m */; };
 		116FAF7E1C5133B4008EE0FC /* full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116FAF7D1C5133B4008EE0FC /* full.jpg */; };
+		11A308D01C521DCD004733C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A308CF1C521DCD004733C4 /* Images.xcassets */; };
+		11A308D21C521FFD004733C4 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A308D11C521FFD004733C4 /* icon-60@2x.png */; };
+		11A308D41C522073004733C4 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A308D31C522073004733C4 /* icon-60@3x.png */; };
+		11A308D81C52244A004733C4 /* icon_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A308D51C52244A004733C4 /* icon_40@2x.png */; };
+		11A308D91C52244A004733C4 /* icon_29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A308D61C52244A004733C4 /* icon_29@3x.png */; };
+		11A308DA1C52244A004733C4 /* icon_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11A308D71C52244A004733C4 /* icon_29@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +55,12 @@
 		116FAF7A1C512B5A008EE0FC /* PairInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairInteger.h; sourceTree = "<group>"; };
 		116FAF7B1C512B5A008EE0FC /* PairInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairInteger.m; sourceTree = "<group>"; };
 		116FAF7D1C5133B4008EE0FC /* full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full.jpg; sourceTree = "<group>"; };
+		11A308CF1C521DCD004733C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11A308D11C521FFD004733C4 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		11A308D31C522073004733C4 /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		11A308D51C52244A004733C4 /* icon_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_40@2x.png"; sourceTree = "<group>"; };
+		11A308D61C52244A004733C4 /* icon_29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_29@3x.png"; sourceTree = "<group>"; };
+		11A308D71C52244A004733C4 /* icon_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_29@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,7 @@
 				116FAF511C50AC84008EE0FC /* MainViewController.m */,
 				116FAF7A1C512B5A008EE0FC /* PairInteger.h */,
 				116FAF7B1C512B5A008EE0FC /* PairInteger.m */,
+				11A308CF1C521DCD004733C4 /* Images.xcassets */,
 			);
 			path = SlidingPuzzle;
 			sourceTree = "<group>";
@@ -99,6 +112,11 @@
 		116FAF111C4F5182008EE0FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				11A308D51C52244A004733C4 /* icon_40@2x.png */,
+				11A308D61C52244A004733C4 /* icon_29@3x.png */,
+				11A308D71C52244A004733C4 /* icon_29@2x.png */,
+				11A308D31C522073004733C4 /* icon-60@3x.png */,
+				11A308D11C521FFD004733C4 /* icon-60@2x.png */,
 				116FAF7D1C5133B4008EE0FC /* full.jpg */,
 				116FAF681C50E1C6008EE0FC /* 3_1-2.jpg */,
 				116FAF691C50E1C6008EE0FC /* 3_1-1.jpg */,
@@ -145,6 +163,7 @@
 				TargetAttributes = {
 					116FAF0D1C4F5182008EE0FC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = K4VGHQHMQG;
 					};
 				};
 			};
@@ -171,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A308D21C521FFD004733C4 /* icon-60@2x.png in Resources */,
 				116FAF7E1C5133B4008EE0FC /* full.jpg in Resources */,
 				116FAF211C4F5182008EE0FC /* LaunchScreen.storyboard in Resources */,
 				116FAF741C50E1C6008EE0FC /* 3_2-0.jpg in Resources */,
@@ -178,8 +198,13 @@
 				116FAF731C50E1C6008EE0FC /* 3_2-1.jpg in Resources */,
 				116FAF781C50E1C6008EE0FC /* 3_0-1.jpg in Resources */,
 				116FAF751C50E1C6008EE0FC /* 3_2-2.jpg in Resources */,
+				11A308D81C52244A004733C4 /* icon_40@2x.png in Resources */,
+				11A308DA1C52244A004733C4 /* icon_29@2x.png in Resources */,
+				11A308D41C522073004733C4 /* icon-60@3x.png in Resources */,
 				116FAF1E1C4F5182008EE0FC /* Assets.xcassets in Resources */,
+				11A308D91C52244A004733C4 /* icon_29@3x.png in Resources */,
 				116FAF1C1C4F5182008EE0FC /* Main.storyboard in Resources */,
+				11A308D01C521DCD004733C4 /* Images.xcassets in Resources */,
 				116FAF761C50E1C6008EE0FC /* 3_1-0.jpg in Resources */,
 				116FAF791C50E1C6008EE0FC /* 3_0-0.jpg in Resources */,
 				116FAF711C50E1C6008EE0FC /* 3_1-2.jpg in Resources */,
@@ -309,6 +334,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlidingPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhux.SlidingPuzzle;
@@ -321,6 +348,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SlidingPuzzle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhux.SlidingPuzzle;
@@ -348,6 +377,7 @@
 				116FAF271C4F5182008EE0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
